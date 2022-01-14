@@ -12,7 +12,7 @@
         android:layout_height="150dp"
         android:padding="30dp"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/logo"
+        app:srcCompat="@drawable/logo1"
         tools:layout_editor_absoluteX="126dp" />
 
     <androidx.recyclerview.widget.RecyclerView
