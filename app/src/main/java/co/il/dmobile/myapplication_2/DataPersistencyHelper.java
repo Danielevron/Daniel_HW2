@@ -36,14 +36,14 @@ public class DataPersistencyHelper {
         else
         {
             List<Car> cars = new ArrayList<Car>();
-            cars.add(new Car(R.drawable.car01,"ford","x4","2019","200000$"));
-            cars.add(new Car(R.drawable.car02,"kia","trs4","2010","100000$"));
-            cars.add(new Car(R.drawable.car03,"bmw","i5","2020","300000$"));
-            cars.add(new Car(R.drawable.car04,"pegeout","108","2019","50000$"));
-            cars.add(new Car(R.drawable.car05,"tesla","x","2022","255000$"));
-            cars.add(new Car(R.drawable.car06,"alpha","axis","2015","108800$"));
-            cars.add(new Car(R.drawable.car07,"toyota","onix","2018","400000$"));
-            cars.add(new Car(R.drawable.car08,"chevrolet","malibu","2021","350000$"));
+            cars.add(new Car(R.drawable.car01,"brand: ford","model: x4","year: 2019","price: 200000$"));
+            cars.add(new Car(R.drawable.car02,"brand: kia","model: trs4","year: 2010","price: 100000$"));
+            cars.add(new Car(R.drawable.car03,"brand: bmw","model: i5","year: 2020","price: 300000$"));
+            cars.add(new Car(R.drawable.car04,"brand: pegeout","model: 108","year: 2019","price: 50000$"));
+            cars.add(new Car(R.drawable.car05,"brand: tesla","model: x","year: 2022","price: 255000$"));
+            cars.add(new Car(R.drawable.car06,"brand: alpha","model: axis","year: 2015","price: 108800$"));
+            cars.add(new Car(R.drawable.car07,"brand: toyota","model: onix","year: 2018","price: 400000$"));
+            cars.add(new Car(R.drawable.car08,"brand: chevrolet","model: malibu","year: 2021","price: 350000$"));
 
             return cars;
         }
